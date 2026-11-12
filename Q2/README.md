@@ -11,5 +11,5 @@ This happens because the browser follows inline > internal > external, and inlin
 
 ## Screenshot
 
-![My Store Page](screenshot.png)
+![My Store Page](screenshotstore.png)
 
