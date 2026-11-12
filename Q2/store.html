@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Mini Store</title>
+        <link rel="stylesheet" href="store.css">
+        <style>
+            p{
+                color: #8b0000;
+                font-style: italic;
+                font-size: large;
+                text-align: center;
+            }
+            table{
+                border: 1px,solid,#ccc;
+                border-collapse: collapse;
+            }
+            button{
+                background-color: #2a9d8f;
+                color: white;
+                border-radius: 6px;
+                padding: 6 px 12 px;
+                font-size: large;
+                padding: 5px;
+            }
+            button:hover{
+                background: #1f776c;
+            }
+            th,td{
+                font-size: large;
+                padding: 10px;
+                border: 1px,solid,#ccc;
+            }
+            ul,li{
+                font-size: large;
+            }
+            input{
+                padding: 5px;
+            }
+            img{
+                height: 100px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <div>
+        <h1>Gadget Galaxy</h1>
+        <p style="color: #006400;"><i>Smart gadgets for smart people</i></p>
+    </div>
+    <body>
+        <center>
+            <div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1);padding: 15px;">
+        <table>
+            <tr>
+                <th colspan="5" style="background-color: #ffd166;font-weight: bold;">Fetured Products</th>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Availabilty</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td><img src="earbuds.jpg" alt="Earbuds"></td>
+                <td>Eatbuds</td>
+                <td>Rs.2500</td>
+                <td rowspan="2">In Stock</td>
+                <td>4.5</td>
+            </tr>
+            <tr style="background-color: lightgray;">
+                <td><img src="powerbank.jpg" alt="Power Bank"></td>
+                <td>Power Bank</td>
+                <td>Rs.3500</td>
+                <td>4.3</td>
+            </tr>
+            <tr>
+                <td><img src="usb.jpg" alt="USB Cable"></td>
+                <td>USB Cable</td>
+                <td>Rs.400</td>
+                <td>Limited</td>
+                <td>4.0</td>
+            </tr>
+                <tr style="background-color: lightgray;">
+                <td><img src="phonestand.jpg" alt="Phone Stand"></td>
+                <td>Phone Stand</td>
+                <td>Rs.650</td>
+                <td>Out of Stock</td>
+                <td>3.9</td>
+            </tr>
+            <tr>
+                <td><img src="mouse.jpg" alt="Mouse"></td>
+                <td>Mouse</td>
+                <td>Rs.1200</td>
+                <td>In Stock</td>
+                <td>4.6</td>
+            </tr>
+        </table>
+            </div>
+        </center>
+        <div>
+            <h2>Categories</h2>
+            <ul>
+                <li>Audio
+                    <ul>
+                        <li>Earbuds</li>
+                        <li>Headphones</li>
+                    </ul>
+                </li>
+                 <li>Power
+                    <ul>
+                        <li>Power Banks</li>
+                        <li>Chargers</li>
+                    </ul>
+                </li>
+                 <li>Accessories
+                    <ul>
+                        <li>Cables</li>
+                        <li>Stands</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2>Subscribe to Updates</h2>
+            <form action="">
+                <h3>Name: <input type="text" placeholder="Enter yor name..."></h3>
+                <h3>Email: <input type="email" placeholder="Enter yor email..."></h3>
+                <h3>Gender: <input type="radio"> Male <input type="radio"> Female</h3>
+                <input type="checkbox"> I agree to receive updates <br><br>
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </body>
+    <hr>
+    <footer>
+        <p>Quick Links: <a href="index.html">Previous Page</a></p>
+    </footer>
+</html>
